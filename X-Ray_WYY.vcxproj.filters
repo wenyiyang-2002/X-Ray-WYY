@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include2D">
+      <UniqueIdentifier>{2dfc3285-4911-4c61-8e42-266275c4f4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source2D">
+      <UniqueIdentifier>{b8c26008-6a52-4419-a826-79b1a6e6ca43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include3D">
+      <UniqueIdentifier>{b12c53c2-20fd-438d-8903-18121e7d9e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source3D">
+      <UniqueIdentifier>{f1082515-86a3-4466-b58c-b8cb732be8dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all_head.h">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool.h">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceBuffer.h">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerate2D.h">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSave2D.h">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="GetProjectionMatrix2D.h">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BP_2D.cuh">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="WeightFiltering2D.cuh">
+      <Filter>include2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerate3D.h">
+      <Filter>include3D</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSave3D.h">
+      <Filter>include3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GetProjectionMatrix3D.h">
+      <Filter>include3D</Filter>
+    </ClInclude>
+    <ClInclude Include="WeightFiltering3D.cuh">
+      <Filter>include3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataGenerate2D.cpp">
+      <Filter>source2D</Filter>
+    </ClCompile>
+    <ClCompile Include="X-Ray_WYY.cpp" />
+    <ClCompile Include="DataSave2D.cpp">
+      <Filter>source2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GetProjectionMatrix2D.cpp">
+      <Filter>source2D</Filter>
+    </ClCompile>
+    <ClCompile Include="DataGenerate3D.cpp">
+      <Filter>source3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSave3D.cpp">
+      <Filter>source3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GetProjectionMatrix3D.cpp">
+      <Filter>source3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="FP_2D.cuh">
+      <Filter>include2D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="FP_2D.cu">
+      <Filter>source2D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="BP_2D.cu">
+      <Filter>source2D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="WeightFiltering2D.cu">
+      <Filter>source2D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="FP_3D.cu">
+      <Filter>source3D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="FP_3D.cuh">
+      <Filter>include3D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="BP_3D.cuh">
+      <Filter>include3D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="BP_3D.cu">
+      <Filter>source3D</Filter>
+    </CudaCompile>
+    <CudaCompile Include="WeightFiltering3D.cu">
+      <Filter>source3D</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
